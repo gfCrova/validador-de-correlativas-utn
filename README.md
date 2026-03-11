@@ -1,31 +1,16 @@
 ### <em>Ejercicio Integrador Intermedio</em>
 # <b>Validador de Correlativas</b>
 
-> ### Consigna
+### Se proponen los siguientes pasos:
 
-implementar un programa que tome como
-argumento una lista de inscripciones, y escriba en un archivo otro con la misma cantidad de
-renglones, indicando que la inscripción fue aceptada o rechazada.
+1 - Implementar el diseño en un proyecto Maven.
 
-Un ejemplo de salida:
-
-- José Rodríguez - Programación I - Aprobado
-- Vanesa Sosa - Bases de datos I - Aprobado
-- Lucia Perez - Bases de datos I - No existe el/la alumno/a
-- Vanesa Sosa - Programación II - Rechazado
-
-<p><a href="src\main\java\org\argPrograma\outputFiles\resultadoInscripciones.csv"/>Resultados De Inscripciones</a></p>
-
-<h2>Se proponen los siguientes pasos:</h2>
-
-- Implementar el diseño en un proyecto Maven.
-
-- Generar 2 tests para el método Inscripción#aprobada:
+2 - Generar 2 tests para el método Inscripción#aprobada:
   - Una materia sin correlativas
   - Una materia con correlativas y que el alumno las tenga
   - Otra materia sin correlativas, y que el alumno no las tenga
   
-- Finalmente implementar el programa, puede seguir el siguiente esquema:
+3 - Finalmente implementar el programa, puede seguir el siguiente esquema:
 
 ``` java
 public static void main(String[] args) {
